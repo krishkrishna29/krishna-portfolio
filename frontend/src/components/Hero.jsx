@@ -132,7 +132,7 @@ const Hero = () => {
           >
             <Button
               className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/50 border border-cyan-400/30"
-              onClick={() => window.open('#', '_blank')}
+              onClick={() => window.open('https://customer-assets.emergentagent.com/job_futuristic-kpi/artifacts/mjmv9svg_Resume_Krishna_Fresher_QA.docx', '_blank')}
             >
               <Download className="mr-2 h-5 w-5" />
               Download Resume
