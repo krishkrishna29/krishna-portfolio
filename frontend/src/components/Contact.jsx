@@ -47,8 +47,7 @@ const Contact = () => {
     e.preventDefault();
 
     if (validateForm()) {
-      toast({
-        title: 'Message Sent Successfully!',
+      toast.success('Message Sent Successfully!', {
         description: "Thank you for reaching out. I'll get back to you soon.",
       });
       setFormData({ name: '', email: '', subject: '', message: '' });
