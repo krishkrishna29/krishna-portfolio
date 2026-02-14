@@ -8,7 +8,6 @@ import { toast } from 'sonner';
 import { Toaster } from './ui/sonner';
 
 const Contact = () => {
-  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
