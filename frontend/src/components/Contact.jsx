@@ -149,7 +149,7 @@ const Contact = () => {
               <p className="text-gray-400 mb-4">Connect with me:</p>
               <div className="flex gap-4">
                 {[
-                  { icon: Github, href: '#', label: 'GitHub' },
+                  { icon: Github, href: 'https://github.com/krishkrishna29', label: 'GitHub' },
                   { icon: Linkedin, href: '#', label: 'LinkedIn' },
                   { icon: Mail, href: 'mailto:krishnaip733@gmail.com', label: 'Email' },
                 ].map((social, index) => (
