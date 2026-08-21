@@ -131,12 +131,18 @@ const About = () => {
                 transition={{ duration: 0.8 }}
                 className="flex justify-center"
               >
-                <div className="relative w-64 h-64">
+                <a
+                  href="https://in.linkedin.com/in/krishkrishna"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Open Krishna Prakash Isabi's LinkedIn profile"
+                  className="relative w-64 h-64 rounded-full focus:outline-none focus:ring-4 focus:ring-cyan-400/60"
+                >
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500 via-purple-500 to-cyan-500 rounded-full blur-2xl opacity-50 animate-pulse" />
-                  <div className="relative w-full h-full bg-gradient-to-br from-blue-600 to-purple-600 rounded-full border-4 border-cyan-400/50 flex items-center justify-center overflow-hidden">
+                  <div className="relative w-full h-full bg-gradient-to-br from-blue-600 to-purple-600 rounded-full border-4 border-cyan-400/50 flex items-center justify-center overflow-hidden hover:border-cyan-300 transition-colors">
                     <User className="w-32 h-32 text-white" />
                   </div>
-                </div>
+                </a>
               </motion.div>
 
               {/* Content */}

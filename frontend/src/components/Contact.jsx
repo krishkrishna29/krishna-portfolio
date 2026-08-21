@@ -9,7 +9,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: emailAddress,
+      value: 'krishnaip733@gmail.com',
       href: `mailto:${emailAddress}`,
     },
     {
@@ -85,7 +85,7 @@ const Contact = () => {
             <div className="flex justify-center gap-4">
               {[
                 { icon: Github, href: 'https://github.com/krishkrishna29', label: 'GitHub' },
-                { icon: Linkedin, href: '#', label: 'LinkedIn' },
+                { icon: Linkedin, href: 'https://www.linkedin.com/in/krishkrishna/', label: 'LinkedIn' },
                 { icon: Mail, href: `mailto:${emailAddress}`, label: 'Email' },
               ].map((social, index) => (
                 <motion.a

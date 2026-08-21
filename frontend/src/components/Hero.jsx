@@ -101,7 +101,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-4">
-            Software Tester | Java Developer | Automation Engineer
+            Software Tester | Manual Tester | Automation Engineer
           </p>
         </motion.div>
 
