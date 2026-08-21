@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 
@@ -132,18 +132,6 @@ const ProjectCard = ({ project, index }) => {
                 </Button>
               </motion.div>
 
-              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <Button
-                  className="w-full bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white border border-white/30"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    window.open(project.demo, '_blank');
-                  }}
-                >
-                  <ExternalLink className="mr-2 h-4 w-4" />
-                  View Details
-                </Button>
-              </motion.div>
             </div>
 
             <p className="text-white/80 text-sm mt-6">Click to open links</p>
