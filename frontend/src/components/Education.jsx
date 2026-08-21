@@ -17,6 +17,13 @@ const education = [
     description: 'Comprehensive training in Manual and Automation Testing. Mastering Selenium WebDriver, Java, TestNG, and industry-standard testing methodologies and best practices.',
     icon: Award,
   },
+  {
+    degree: 'QA Tester - Intern',
+    institution: 'Qapitol QA',
+    period: 'Nov 2025 - Dec 2025',
+    description: 'Completed a 2-month internship in the Delivery Team, focusing on manual testing, test case design and execution, defect identification, SDLC and STLC processes, and validating application functionality in a real-time project environment.',
+    icon: Award,
+  },
 ];
 
 const TimelineItem = ({ item, index, isVisible }) => {
@@ -125,7 +132,7 @@ const Education = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto rounded-full mb-4" />
           <p className="text-gray-400 max-w-2xl mx-auto">
-            My academic journey and professional training
+            My academic journey, professional training, and QA experience
           </p>
         </motion.div>
 
